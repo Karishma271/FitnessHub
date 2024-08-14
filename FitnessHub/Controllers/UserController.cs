@@ -39,7 +39,7 @@ namespace FitnessHub.Controllers
             var model = new EditUserViewModel
             {
                 UserID = id, // Assign int ID
-                Username = user.UserName,
+               
                 Email = user.Email,
                 Role = UserManager.GetRoles(user.Id).FirstOrDefault()
             };
@@ -59,7 +59,7 @@ namespace FitnessHub.Controllers
             var model = new EditUserViewModel
             {
                 UserID = id, // Assign int ID
-                Username = user.UserName,
+               
                 Email = user.Email,
                 Role = UserManager.GetRoles(user.Id).FirstOrDefault()
             };
@@ -80,7 +80,7 @@ namespace FitnessHub.Controllers
                     return HttpNotFound();
                 }
 
-                user.UserName = model.Username;
+                
                 user.Email = model.Email;
 
                 var currentRole = UserManager.GetRoles(user.Id).FirstOrDefault();

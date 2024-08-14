@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\pg canada\\SEM-2\\HTTP-5226\\FitnessHub\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D9CC17-24C2-4696-8CF1-B8E617F66904}|FitnessHub\\FitnessHub.csproj|d:\\pg canada\\sem-2\\http-5226\\fitnesshub\\fitnesshub\\migrations\\202408140203447_hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D9CC17-24C2-4696-8CF1-B8E617F66904}|FitnessHub\\FitnessHub.csproj|solutionrelative:fitnesshub\\migrations\\202408140203447_hub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D9CC17-24C2-4696-8CF1-B8E617F66904}|FitnessHub\\FitnessHub.csproj|d:\\pg canada\\sem-2\\http-5226\\fitnesshub\\fitnesshub\\migrations\\202408140159374_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D9CC17-24C2-4696-8CF1-B8E617F66904}|FitnessHub\\FitnessHub.csproj|solutionrelative:fitnesshub\\migrations\\202408140159374_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +31,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "202408140203447_hub.cs",
+              "DocumentMoniker": "D:\\pg canada\\SEM-2\\HTTP-5226\\FitnessHub\\FitnessHub\\Migrations\\202408140203447_hub.cs",
+              "RelativeDocumentMoniker": "FitnessHub\\Migrations\\202408140203447_hub.cs",
+              "ToolTip": "D:\\pg canada\\SEM-2\\HTTP-5226\\FitnessHub\\FitnessHub\\Migrations\\202408140203447_hub.cs",
+              "RelativeToolTip": "FitnessHub\\Migrations\\202408140203447_hub.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAYwIMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T02:03:54.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "202408140159374_InitialCreate.cs",
+              "DocumentMoniker": "D:\\pg canada\\SEM-2\\HTTP-5226\\FitnessHub\\FitnessHub\\Migrations\\202408140159374_InitialCreate.cs",
+              "RelativeDocumentMoniker": "FitnessHub\\Migrations\\202408140159374_InitialCreate.cs",
+              "ToolTip": "D:\\pg canada\\SEM-2\\HTTP-5226\\FitnessHub\\FitnessHub\\Migrations\\202408140159374_InitialCreate.cs",
+              "RelativeToolTip": "FitnessHub\\Migrations\\202408140159374_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T01:59:46.778Z",
+              "EditorCaption": ""
             }
           ]
         }

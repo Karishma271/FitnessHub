@@ -11,8 +11,7 @@ namespace FitnessHub.Models
         [EmailAddress]
         public string Email { get; set; }
 
-        [Required]
-        public string Username { get; set; }
+       
 
         public string Role { get; set; } // Admin or User
 

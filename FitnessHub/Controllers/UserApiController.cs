@@ -30,7 +30,7 @@ namespace FitnessHub.Controllers
             var userDtos = users.Select(user => new UserDto
             {
                 UserID = int.Parse(user.Id), // Convert string ID to int
-                Username = user.UserName,
+                
                 Email = user.Email,
                 Role = userManager.GetRoles(user.Id).FirstOrDefault()
             }).ToList();
@@ -53,7 +53,7 @@ namespace FitnessHub.Controllers
             var userDto = new UserDto
             {
                 UserID = id,
-                Username = user.UserName,
+                
                 Email = user.Email,
                 Role = userManager.GetRoles(user.Id).FirstOrDefault()
             };
@@ -73,7 +73,7 @@ namespace FitnessHub.Controllers
 
             var user = new ApplicationUser
             {
-                UserName = userDto.Username,
+                
                 Email = userDto.Email
             };
 
@@ -106,7 +106,7 @@ namespace FitnessHub.Controllers
                 return NotFound();
             }
 
-            user.UserName = userDto.Username;
+            
             user.Email = userDto.Email;
 
             var currentRole = userManager.GetRoles(user.Id).FirstOrDefault();

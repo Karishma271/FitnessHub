@@ -16,8 +16,8 @@ namespace FitnessHub.Controllers
         // GET: Studio
         public ActionResult Index()
         {
-            var studios = db.Studios.ToList();
-            return View(studios);
+            var studio = db.Studios.ToList();
+            return View(studio);
         }
 
         // GET: Studio/Details/5
@@ -58,7 +58,7 @@ namespace FitnessHub.Controllers
 
                 db.Studios.Add(studio);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("index");
             }
             return View(studio);
         }
@@ -91,7 +91,7 @@ namespace FitnessHub.Controllers
 
                 db.Entry(studio).State = System.Data.Entity.EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("index");
             }
             return View(studio);
         }
@@ -125,7 +125,7 @@ namespace FitnessHub.Controllers
                 db.Studios.Remove(studio);
                 db.SaveChanges();
             }
-            return RedirectToAction("Index");
+            return RedirectToAction("index");
         }
     }
 }
